@@ -27,8 +27,8 @@ modules:
       - install -Dm0664 -t ${FLATPAK_DEST}/share/metainfo/ it.unibo.tuprolog.ide.metainfo.xml
     sources:
       - type: file
-        url: https://github.com/tuProlog/2p-kt/releases/download/1.0.4/2p-ide-1.0.4-redist.jar
-        sha256: e1cf2a1b66fcba179b0167d1d3f30d586ceecee6244ce4427e93c654b459e79b
+        url: https://github.com/tuProlog/2p-kt/releases/download/3.0.5/2p-ide-swing-3.0.5-redist.jar
+        sha256: 0866fc06af8ba5b5810ee9555a66d928158f7513deca8f3fc36a3f6df493c116
         dest-filename: tuprolog-ide.jar
       - type: file
         url: https://raw.githubusercontent.com/tuProlog/2p-kt/refs/tags/1.0.4/.img/logo.svg
